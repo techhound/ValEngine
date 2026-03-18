@@ -9,7 +9,7 @@ import pandas as pd
 from datetime import datetime
 from fredapi import Fred
 
-FRED_API_KEY = "78871d4baaf16d5e6d20ecc66a331e17"
+FRED_API_KEY = "{YOUR_FRED_API_KEY}"
 
 fred = Fred(api_key=FRED_API_KEY)
 
